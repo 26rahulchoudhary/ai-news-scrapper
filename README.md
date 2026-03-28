@@ -1,23 +1,23 @@
-# 🚀 AI News Scraper & Twitter Content Engine
+# AI News Scraper & Twitter Content Engine
 
 A modular Python-based pipeline that scrapes AI & tech news, filters high-quality articles, extracts meaningful insights, ranks them, and generates engaging tweets.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project is designed to:
 
-* 📰 Scrape latest AI & tech news from trusted sources
-* 🧠 Filter relevant content using keyword logic
-* 📖 Extract full article content (fallback supported)
-* ✂️ Summarize articles using NLP
-* 📊 Rank articles based on quality signals
-* 🐦 Generate engaging & opinion-based tweets
+* Scrape latest AI & tech news from trusted sources
+* Filter relevant content using keyword logic
+* Extract full article content (fallback supported)
+* Summarize articles using NLP
+* Rank articles based on quality signals
+* Generate engaging & opinion-based tweets
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 ai-news-scraper/
@@ -66,7 +66,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Run the Project
+## Run the Project
 
 ```bash
 python main.py
@@ -74,7 +74,7 @@ python main.py
 
 ---
 
-## 🔄 Pipeline Flow
+## Pipeline Flow
 
 ```
 RSS Feeds → Filter → Extract → Summarize → Rank → Generate Tweets → Save CSV
@@ -82,24 +82,24 @@ RSS Feeds → Filter → Extract → Summarize → Rank → Generate Tweets → 
 
 ---
 
-## 🧠 Features
+## Features
 
-### ✅ Smart Filtering
+### Smart Filtering
 
 * AI keyword-based filtering
 * Avoids irrelevant tech/tutorial noise
 
-### ✅ Article Extraction
+### Article Extraction
 
 * Uses `newspaper3k` / fallback methods
 * Handles blocked or partial content
 
-### ✅ NLP Summarization
+### NLP Summarization
 
 * Extracts key sentences
 * Keeps content concise and tweet-ready
 
-### ✅ Ranking System
+### Ranking System
 
 Articles are scored based on:
 
@@ -108,7 +108,7 @@ Articles are scored based on:
 * Recency
 * Content richness
 
-### ✅ Tweet Generation
+### Tweet Generation
 
 * Hook-based tweets
 * Smart truncation (no broken words)
@@ -116,25 +116,25 @@ Articles are scored based on:
 
 ---
 
-## 📊 Output Example
+## Output Example
 
 | title                     | tweet                | source     |
 | ------------------------- | -------------------- | ---------- |
-| AI startup raises funding | 🚀 Big news in AI... | TechCrunch |
+| AI startup raises funding | Big news in AI...... | TechCrunch |
 
 ---
 
-## 🔥 Advanced Features (WIP)
+## Advanced Features (WIP)
 
-* 🧠 AI-based tweet generation (LLM)
-* 🧵 Thread generation
-* 📈 Viral scoring system
-* 🤖 Auto-posting to Twitter API
-* ⏰ Scheduled execution (cron jobs)
+* AI-based tweet generation (LLM)
+* Thread generation
+* Viral scoring system
+* Auto-posting to Twitter API
+* Scheduled execution (cron jobs)
 
 ---
 
-## 💡 Key Learnings
+## Key Learnings
 
 This project demonstrates:
 
@@ -153,7 +153,7 @@ This project demonstrates:
 
 ---
 
-## 🚀 Future Roadmap
+## Future Roadmap
 
 * Replace keyword filtering with LLM classification
 * Add semantic search / embeddings
@@ -162,7 +162,7 @@ This project demonstrates:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Feel free to fork and improve the project!
 
@@ -180,4 +180,4 @@ Rahul Choudhary
 
 ---
 
-🔥 Built with the goal of turning news into actionable, engaging content.
+Built with the goal of turning news into actionable, engaging content.
